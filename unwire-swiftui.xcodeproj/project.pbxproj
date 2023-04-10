@@ -32,13 +32,15 @@
 		391FAE2E29E463F000C1AA37 /* SearchRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391FAE2A29E463EF00C1AA37 /* SearchRoute.swift */; };
 		391FAE2F29E463F000C1AA37 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391FAE2B29E463EF00C1AA37 /* SearchCoordinator.swift */; };
 		391FAE3029E463F000C1AA37 /* SearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391FAE2C29E463F000C1AA37 /* SearchResultRow.swift */; };
+		391FAE4529E46AEB00C1AA37 /* SearchMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391FAE4329E46AEA00C1AA37 /* SearchMusicTests.swift */; };
+		391FAE4629E46AEB00C1AA37 /* SearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391FAE4429E46AEB00C1AA37 /* SearchViewModelTests.swift */; };
 		39DE536329E3214C00F6C953 /* unwire_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DE536229E3214C00F6C953 /* unwire_swiftuiApp.swift */; };
 		39DE536729E3214F00F6C953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DE536629E3214F00F6C953 /* Assets.xcassets */; };
 		39DE536A29E3214F00F6C953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DE536929E3214F00F6C953 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39DE537029E3214F00F6C953 /* PBXContainerItemProxy */ = {
+		391FAE3E29E46ADA00C1AA37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39DE535729E3214C00F6C953 /* Project object */;
 			proxyType = 1;
@@ -74,22 +76,24 @@
 		391FAE2A29E463EF00C1AA37 /* SearchRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoute.swift; sourceTree = "<group>"; };
 		391FAE2B29E463EF00C1AA37 /* SearchCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
 		391FAE2C29E463F000C1AA37 /* SearchResultRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultRow.swift; sourceTree = "<group>"; };
+		391FAE3A29E46ADA00C1AA37 /* unwire-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "unwire-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391FAE4329E46AEA00C1AA37 /* SearchMusicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMusicTests.swift; sourceTree = "<group>"; };
+		391FAE4429E46AEB00C1AA37 /* SearchViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModelTests.swift; sourceTree = "<group>"; };
 		39DE535F29E3214C00F6C953 /* unwire-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unwire-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39DE536229E3214C00F6C953 /* unwire_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unwire_swiftuiApp.swift; sourceTree = "<group>"; };
 		39DE536629E3214F00F6C953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39DE536929E3214F00F6C953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		39DE536F29E3214F00F6C953 /* unwire-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "unwire-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39DE535C29E3214C00F6C953 /* Frameworks */ = {
+		391FAE3729E46ADA00C1AA37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39DE536C29E3214F00F6C953 /* Frameworks */ = {
+		39DE535C29E3214C00F6C953 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,6 +223,15 @@
 			path = extensions;
 			sourceTree = "<group>";
 		};
+		391FAE3B29E46ADA00C1AA37 /* unwire-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				391FAE4329E46AEA00C1AA37 /* SearchMusicTests.swift */,
+				391FAE4429E46AEB00C1AA37 /* SearchViewModelTests.swift */,
+			);
+			path = "unwire-swiftuiTests";
+			sourceTree = "<group>";
+		};
 		39DE535629E3214C00F6C953 = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +240,7 @@
 				391FADE229E42B1D00C1AA37 /* domain */,
 				391FADCB29E42B1D00C1AA37 /* presentation */,
 				39DE536129E3214C00F6C953 /* unwire-swiftui */,
+				391FAE3B29E46ADA00C1AA37 /* unwire-swiftuiTests */,
 				39DE536029E3214C00F6C953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -235,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				39DE535F29E3214C00F6C953 /* unwire-swiftui.app */,
-				39DE536F29E3214F00F6C953 /* unwire-swiftuiTests.xctest */,
+				391FAE3A29E46ADA00C1AA37 /* unwire-swiftuiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,6 +276,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		391FAE3929E46ADA00C1AA37 /* unwire-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391FAE4029E46ADA00C1AA37 /* Build configuration list for PBXNativeTarget "unwire-swiftuiTests" */;
+			buildPhases = (
+				391FAE3629E46ADA00C1AA37 /* Sources */,
+				391FAE3729E46ADA00C1AA37 /* Frameworks */,
+				391FAE3829E46ADA00C1AA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391FAE3F29E46ADA00C1AA37 /* PBXTargetDependency */,
+			);
+			name = "unwire-swiftuiTests";
+			productName = "unwire-swiftuiTests";
+			productReference = 391FAE3A29E46ADA00C1AA37 /* unwire-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		39DE535E29E3214C00F6C953 /* unwire-swiftui */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39DE538329E3214F00F6C953 /* Build configuration list for PBXNativeTarget "unwire-swiftui" */;
@@ -279,24 +311,6 @@
 			productReference = 39DE535F29E3214C00F6C953 /* unwire-swiftui.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39DE536E29E3214F00F6C953 /* unwire-swiftuiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39DE538629E3214F00F6C953 /* Build configuration list for PBXNativeTarget "unwire-swiftuiTests" */;
-			buildPhases = (
-				39DE536B29E3214F00F6C953 /* Sources */,
-				39DE536C29E3214F00F6C953 /* Frameworks */,
-				39DE536D29E3214F00F6C953 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39DE537129E3214F00F6C953 /* PBXTargetDependency */,
-			);
-			name = "unwire-swiftuiTests";
-			productName = "unwire-swiftuiTests";
-			productReference = 39DE536F29E3214F00F6C953 /* unwire-swiftuiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,12 +321,12 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					39DE535E29E3214C00F6C953 = {
-						CreatedOnToolsVersion = 14.1;
-					};
-					39DE536E29E3214F00F6C953 = {
+					391FAE3929E46ADA00C1AA37 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 39DE535E29E3214C00F6C953;
+					};
+					39DE535E29E3214C00F6C953 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
@@ -331,12 +345,19 @@
 			projectRoot = "";
 			targets = (
 				39DE535E29E3214C00F6C953 /* unwire-swiftui */,
-				39DE536E29E3214F00F6C953 /* unwire-swiftuiTests */,
+				391FAE3929E46ADA00C1AA37 /* unwire-swiftuiTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		391FAE3829E46ADA00C1AA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39DE535D29E3214C00F6C953 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,16 +368,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39DE536D29E3214F00F6C953 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		391FAE3629E46ADA00C1AA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391FAE4529E46AEB00C1AA37 /* SearchMusicTests.swift in Sources */,
+				391FAE4629E46AEB00C1AA37 /* SearchViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39DE535B29E3214C00F6C953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,20 +412,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39DE536B29E3214F00F6C953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39DE537129E3214F00F6C953 /* PBXTargetDependency */ = {
+		391FAE3F29E46ADA00C1AA37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 39DE535E29E3214C00F6C953 /* unwire-swiftui */;
-			targetProxy = 39DE537029E3214F00F6C953 /* PBXContainerItemProxy */;
+			targetProxy = 391FAE3E29E46ADA00C1AA37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,6 +435,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		391FAE4129E46ADA00C1AA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unwire.unwire-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unwire-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/unwire-swiftui";
+			};
+			name = Debug;
+		};
+		391FAE4229E46ADA00C1AA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unwire.unwire-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unwire-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/unwire-swiftui";
+			};
+			name = Release;
+		};
 		39DE538129E3214F00F6C953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -591,47 +641,18 @@
 			};
 			name = Release;
 		};
-		39DE538729E3214F00F6C953 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "unwire.unwire-swiftuiTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unwire-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/unwire-swiftui";
-			};
-			name = Debug;
-		};
-		39DE538829E3214F00F6C953 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "unwire.unwire-swiftuiTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unwire-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/unwire-swiftui";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		391FAE4029E46ADA00C1AA37 /* Build configuration list for PBXNativeTarget "unwire-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391FAE4129E46ADA00C1AA37 /* Debug */,
+				391FAE4229E46ADA00C1AA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		39DE535A29E3214C00F6C953 /* Build configuration list for PBXProject "unwire-swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -646,15 +667,6 @@
 			buildConfigurations = (
 				39DE538429E3214F00F6C953 /* Debug */,
 				39DE538529E3214F00F6C953 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39DE538629E3214F00F6C953 /* Build configuration list for PBXNativeTarget "unwire-swiftuiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39DE538729E3214F00F6C953 /* Debug */,
-				39DE538829E3214F00F6C953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
