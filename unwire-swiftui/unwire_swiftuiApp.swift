@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct unwire_swiftuiApp: App {
+    private let repository: SearchMusicRespository = SearchMusicRespositoryImpl()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView(viewModel: SearchViewModel(searchMusic: SearchMusicImpl(repository: repository)))
         }
     }
 }

@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import UIKit
 
-class SearchViewModel: ObservableObject {
+class SearchViewModel: SearchFlowState {
     private let searchMusic: SearchMusic!
     
     private var cancelables = [AnyCancellable]()
@@ -20,6 +20,7 @@ class SearchViewModel: ObservableObject {
     
     init(searchMusic: SearchMusic = SearchMusicImpl()) {
         self.searchMusic = searchMusic
+        super.init()
         
         $searchText
             .dropFirst()
